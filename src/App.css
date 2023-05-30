@@ -1,9 +1,54 @@
 .App {
-  margin: 0 80px auto;
-  font-family: "Figtree";
+  font-family: var(--primary-font-family);
+  width: 100%;
 }
 
 .container {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
+
+.App header {
+  width: 100vw;
+}
+
+.section-padding {
+  padding: 0 80px;
+}
+
+.banner {
+  background-color: #f7f7f7;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+.banner h1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+span img {
+  aspect-ratio: auto 53 / 30;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+
+span .divider {
+  border-left: 1px solid #dddddd;
+  height: 30px;
+  margin: 0 16px;
+}
+
+.banner span {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+}
+
+

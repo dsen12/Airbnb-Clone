@@ -1,3 +1,8 @@
 :root body {
     background-color: #FFFFFF;
 }
+
+:root {
+    --primary-font-family: "Figtree", sans-serif;
+    --primart-font-color: #222222;
+}

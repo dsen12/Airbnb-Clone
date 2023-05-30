@@ -31,6 +31,14 @@
   line-height: 22px;
 }
 
+.banner span {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+}
+
 span img {
   aspect-ratio: auto 53 / 30;
   border-radius: 5px;
@@ -43,12 +51,22 @@ span .divider {
   margin: 0 16px;
 }
 
-.banner span {
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
-  display: inline-flex;
-  align-items: center;
+.banner div:hover {
+  text-decoration: underline;
 }
 
+header .navbar {
+  border: 1px solid #dddddd;
+  height: 80px;
+}
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 102px;
+  height: 32px;
+}

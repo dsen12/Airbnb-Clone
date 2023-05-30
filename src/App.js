@@ -1,5 +1,6 @@
 import './App.css';
-import BannerImage from "./images/Banner-Image.png"
+import BannerImage from "./images/Banner-Image.png";
+import AirbnbLogo from "./images/Airbnb_Logo.svg"
 
 function App() {
   return (
@@ -15,8 +16,12 @@ function App() {
                 <div>Learn more</div>
               </span>
             </div>
-            <nav><div className='section-padding'>nav bar</div></nav>
-            <div><div className='section-padding'>category scroll</div></div>
+            <div className='navbar section-padding'>
+                  <img className='logo' src={AirbnbLogo}></img>
+                  <div>search bar</div>
+                  <div>menu</div>
+            </div>
+            <div className='category-bar'><div className='section-padding'>category scroll</div></div>
         </header>
         <main><div className='section-padding'>destination listings</div></main>
         <footer><div className='section-padding'>boring stuff</div></footer>

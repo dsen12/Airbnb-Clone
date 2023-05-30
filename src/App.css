@@ -70,3 +70,59 @@ header .navbar {
   width: 102px;
   height: 32px;
 }
+
+.search-bar {
+  width: 400px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 24px;
+}
+
+.search-buttons {
+  display: flex;
+  border: 1px solid #dddddd;
+  border-radius: 40px;
+  padding: 6px 8px;
+  align-items: center;
+}
+
+.search-buttons div {
+  padding: 0 16px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.search-buttons div:first-child {
+  padding-left: 9px 0;
+}
+.search-buttons .add-guests {
+  color: rgb(113, 113, 113);
+}
+.search-buttons .anywhere, .any-week {
+  font-weight: 800;
+}
+
+.search-buttons div:not(:first-child):not(:last-child) {
+  border-left: 1px solid #dddddd;
+}
+
+.search-buttons .button {
+  background-color: #ff395b;
+  width: 32px;
+  height: 32px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-buttons img {
+  height: 15px;
+  width: 15px;
+  display: block;
+  margin: auto;
+}

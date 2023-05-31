@@ -1,7 +1,8 @@
 import './App.css';
 import BannerImage from "./images/Banner-Image.png";
 import AirbnbLogo from "./images/Airbnb_Logo.svg"
-import MagnifyingGlass from "./images/magnifying-glass-solid.svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
                       <div className='anywhere'>Anywhere</div>
                       <div className='any-week'>Any week</div>
                       <div className='add-guests'>Add Guests</div>
-                      <div className='button'><img src={MagnifyingGlass} alt='hi'></img></div>
+                      <div className='button'>
+                        <FontAwesomeIcon className='icon' icon={faMagnifyingGlass} />
+                      </div>
                     </div>
                   </div>
                   <div>menu</div>

@@ -81,6 +81,8 @@ header .navbar {
 }
 
 .search-buttons {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s ease-in-out;
   display: flex;
   border: 1px solid #dddddd;
   border-radius: 40px;
@@ -88,17 +90,25 @@ header .navbar {
   align-items: center;
 }
 
+.search-buttons:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
 .search-buttons div {
   padding: 0 16px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
 }
+
 .search-buttons div:first-child {
   padding-left: 9px 0;
 }
+
 .search-buttons .add-guests {
   color: rgb(113, 113, 113);
+  font-weight: 400;
 }
+
 .search-buttons .anywhere, .any-week {
   font-weight: 800;
 }
@@ -120,9 +130,10 @@ header .navbar {
   align-items: center;
 }
 
-.search-buttons img {
-  height: 15px;
-  width: 15px;
+.search-buttons .button .icon {
+  height: 12px;
+  width: 12px;
   display: block;
   margin: auto;
+  color: #f7f7f7;
 }

@@ -66,6 +66,10 @@ header .navbar {
   justify-content: space-between;
 }
 
+.navbar .logo {
+  fill: #ff395b;
+}
+
 .search-bar {
   width: 400px;
   height: 48px;
@@ -150,25 +154,46 @@ header .navbar {
   margin-right: 8px;
 }
 
-.menu-bar .airbnb-your-home p {
+.menu-bar .airbnb-your-home .text {
   width: 142px;
   margin: 0;
   padding: 12px;
   border-radius: 22px;
   text-align: center;
 }
-.menu-bar .airbnb-your-home p:hover {
+.menu-bar .airbnb-your-home .text:hover {
   background-color: #F7F7F7;
   transition: color 250ms ease-in-out;
 }
 
-.menu-bar .airbnb-your-home .world-icon {
+.menu-bar .airbnb-your-home .world-icon img {
   padding: 12px;
   border-radius: 22px;
+  height: 42px;
+  width: 40px;
 }
-.menu-bar .airbnb-your-home .world-icon:hover {
+.menu-bar .airbnb-your-home .world-icon img:hover {
   background-color: #F7F7F7;
   transition: color 250ms ease-in-out;
+}
+
+.menu-bar .menu {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 21px;
+  width: 77px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  column-gap: 12px;
+  padding: 5px 5px 5px 12px;
+}
+
+.menu-bar .menu:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease-in-out;
+
 }
 
 .menu-icon {
@@ -176,20 +201,5 @@ header .navbar {
   width: 16px;
   height: 16px;
   color: var(--primary-font-color);
-  padding: 0 12px;
-}
-
-.menu {
-  border: 1px solid rgb(221, 221, 221);
-  border-radius: 21px;
-  width: 73px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-}
-
-.user-icon {
-  padding-right: 5px;
+  text-align: center;
 }

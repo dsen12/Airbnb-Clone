@@ -66,11 +66,6 @@ header .navbar {
   justify-content: space-between;
 }
 
-.navbar img {
-  width: 102px;
-  height: 32px;
-}
-
 .search-bar {
   width: 400px;
   height: 48px;
@@ -114,26 +109,87 @@ header .navbar {
 }
 
 .search-buttons div:not(:first-child):not(:last-child) {
-  border-left: 1px solid #dddddd;
+  border-left: 1px solid rgb(221, 221, 221);
 }
 
 .search-buttons .button {
   background-color: #ff395b;
   width: 32px;
   height: 32px;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.search-buttons .button .icon {
+.search-buttons .button .search-icon {
   height: 12px;
   width: 12px;
   display: block;
   margin: auto;
   color: #f7f7f7;
+}
+
+.menu-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.menu-bar .airbnb-your-home {
+  line-height: 18px;
+  font-size: 14px;
+  width: 182px;
+  height: 42px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.menu-bar .airbnb-your-home p {
+  width: 142px;
+  margin: 0;
+  padding: 12px;
+  border-radius: 22px;
+  text-align: center;
+}
+.menu-bar .airbnb-your-home p:hover {
+  background-color: #F7F7F7;
+  transition: color 250ms ease-in-out;
+}
+
+.menu-bar .airbnb-your-home .world-icon {
+  padding: 12px;
+  border-radius: 22px;
+}
+.menu-bar .airbnb-your-home .world-icon:hover {
+  background-color: #F7F7F7;
+  transition: color 250ms ease-in-out;
+}
+
+.menu-icon {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  color: var(--primary-font-color);
+  padding: 0 12px;
+}
+
+.menu {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 21px;
+  width: 73px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.user-icon {
+  padding-right: 5px;
 }

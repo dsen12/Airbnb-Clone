@@ -39,13 +39,13 @@
   align-items: center;
 }
 
-span img {
+.banner span img {
   aspect-ratio: auto 53 / 30;
   border-radius: 5px;
   margin-right: 16px;
 }
 
-span .divider {
+.banner span .divider {
   border-left: 1px solid #dddddd;
   height: 30px;
   margin: 0 16px;
@@ -202,40 +202,4 @@ header .navbar {
   height: 16px;
   color: var(--primary-font-color);
   text-align: center;
-}
-
-.category-bar {
-  padding-top: 16px;
-}
-
-.category-bar .category-scroll span {
-  padding: 16px 0;
-}
-
-.category-bar .category-scroll span img {
-  width: 24px;
-  height: 24px;
-  display: block;
-  margin: 0 auto;
-}
-
-.category-bar .category-scroll .category-label {
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
-  height: 16px;
-  line-height: 16px;
-}
-
-.category-bar .category-scroll span {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  row-gap: 8px;
-}
-
-.category-bar .filters-menu {
-  height: 48px;
-  width: 90px;
 }

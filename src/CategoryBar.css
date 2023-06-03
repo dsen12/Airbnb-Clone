@@ -6,9 +6,15 @@
     padding-top: 16px;
     height: 97px;
   }
-  
+.category-bar .category-scroll {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    column-gap: 32px;
+}
+
 .category-bar .category-scroll span {
     padding: 16px 0;
+    color: rgb(113, 113, 113);
   }
   
 .category-bar .category-scroll span img {
@@ -22,7 +28,6 @@
     text-align: center;
     font-size: 12px;
     font-weight: 600;
-    height: 16px;
     line-height: 16px;
   }
   

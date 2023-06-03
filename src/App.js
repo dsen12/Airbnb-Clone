@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import user from "./images/user.png";
+import CategoryBar from './CategoryBar';
 
 function App() {
   return (
@@ -49,7 +50,7 @@ function App() {
                   </div>
                 </div>
             </div>
-            <div className='category-bar'><div className='section-padding'>category scroll</div></div>
+            <CategoryBar />
         </header>
         <main><div className='section-padding'>destination listings</div></main>
         <footer><div className='section-padding'>boring stuff</div></footer>

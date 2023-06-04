@@ -36,27 +36,27 @@ export default function CategoryBar() {
                 </span>
                  <span>
                     <img className='category-icon' src={amazingviews} alt='icon for OMG! category'></img>
-                    <div className='category-label'>Tiny Homes</div>
+                    <div className='category-label'>Amazing Views</div>
                 </span>
                  <span>
                     <img className='category-icon' src={thearctic} alt='icon for OMG! category'></img>
-                    <div className='category-label'>Tiny Homes</div>
+                    <div className='category-label'>The Arctic</div>
                 </span>
                  <span>
                     <img className='category-icon' src={tropical} alt='icon for OMG! category'></img>
-                    <div className='category-label'>Tiny Homes</div>
+                    <div className='category-label'>Tropical</div>
                 </span>
                  <span>
                     <img className='category-icon' src={mansions} alt='icon for OMG! category'></img>
-                    <div className='category-label'>Tiny Homes</div>
+                    <div className='category-label'>Mansions</div>
                 </span>
                  <span>
                     <img className='category-icon' src={treehouses} alt='icon for OMG! category'></img>
-                    <div className='category-label'>Tiny Homes</div>
+                    <div className='category-label'>Treehouses</div>
                 </span>
                  <span>
                     <img className='category-icon' src={boats} alt='icon for OMG! category'></img>
-                    <div className='category-label'>Tiny Homes</div>
+                    <div className='category-label'>Boats</div>
                 </span>
                  <span>
                     <img className='category-icon' src={countryside} alt='icon for OMG! category'></img>
@@ -68,27 +68,27 @@ export default function CategoryBar() {
                 </span>
                  <span>
                     <img className='category-icon' src={cabins} alt='icon for OMG! category'></img>
-                    <div className='category-label'>cabins</div>
+                    <div className='category-label'>Cabins</div>
                 </span>
                  <span>
                     <img className='category-icon' src={beaches} alt='icon for OMG! category'></img>
-                    <div className='category-label'>beaches</div>
+                    <div className='category-label'>Beaches</div>
                 </span>
                  <span>
                     <img className='category-icon' src={islands} alt='icon for OMG! category'></img>
-                    <div className='category-label'>Tiny Homes</div>
+                    <div className='category-label'>Islands</div>
                 </span>
                  <span>
                     <img className='category-icon' src={trending} alt='icon for OMG! category'></img>
-                    <div className='category-label'>Tiny Homes</div>
+                    <div className='category-label'>Trending</div>
                 </span>
                  <span>
                     <img className='category-icon' src={farms} alt='icon for OMG! category'></img>
-                    <div className='category-label'>farms</div>
+                    <div className='category-label'>Farms</div>
                 </span>
                  <span>
                     <img className='category-icon' src={offthegrid} alt='icon for OMG! category'></img>
-                    <div className='category-label'>offthegrid</div>
+                    <div className='category-label'>Off The Grid</div>
                 </span>
             </div>
             <div className='filters-menu'>

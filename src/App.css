@@ -8,7 +8,7 @@
   margin: 0;
 }
 
-.App header {
+.App .banner, header, main, footer {
   width: 100vw;
 }
 
@@ -66,7 +66,7 @@ header .navbar {
   justify-content: space-between;
 }
 
-.navbar .logo {
+.navbar .logo svg {
   fill: #ff395b;
 }
 
@@ -166,13 +166,14 @@ header .navbar {
   transition: color 250ms ease-in-out;
 }
 
-.menu-bar .airbnb-your-home .world-icon img {
+.menu-bar .airbnb-your-home .world-icon {
   padding: 12px;
   border-radius: 22px;
   height: 42px;
   width: 40px;
 }
-.menu-bar .airbnb-your-home .world-icon img:hover {
+
+.menu-bar .airbnb-your-home .world-icon:hover {
   background-color: #F7F7F7;
   transition: color 250ms ease-in-out;
 }
@@ -202,4 +203,8 @@ header .navbar {
   height: 16px;
   color: var(--primary-font-color);
   text-align: center;
+}
+
+main {
+  height: 2000px;
 }

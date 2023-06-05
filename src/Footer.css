@@ -3,7 +3,7 @@ footer {
     height: 48px;
     border: 1px solid #dddddd;
     bottom: 0;
-    position: sticky;
+    background-color: #FFFFFF;
 }
 
 footer .footer-panels {

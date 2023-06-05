@@ -26,7 +26,7 @@ export default function CategoryBar() {
                     <img className='category-icon' src={omg} alt='icon for OMG! category'></img>
                     <div className='category-label'>OMG!</div>
                 </span>
-                 <span>
+                 <span >
                     <img className='category-icon' src={rooms} alt='icon for OMG! category'></img>
                     <div className='category-label'>Rooms</div>
                 </span>
@@ -92,7 +92,7 @@ export default function CategoryBar() {
                 </span>
             </div>
             <div className='filters-menu'>
-                filters
+                Filters
             </div>
         </div>
 

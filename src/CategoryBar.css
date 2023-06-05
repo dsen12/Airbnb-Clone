@@ -1,17 +1,20 @@
 .section-padding {
-  
+    padding: 0 80px;
   }
   
 .category-bar {
     padding-top: 16px;
     height: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 .category-bar .category-scroll {
-    display: flex; /* Change display to flex */
+    display: flex;
     align-items: center; 
     gap: 32px;
-    max-width: 1541px;
+    width: 1541px;
     justify-content: space-between;
 }
 
@@ -32,16 +35,35 @@
     height: 24px;
     filter: invert(54%) sepia(0%) saturate(0%) hue-rotate(271deg) brightness(80%) contrast(104%);
   }
-  
+
+.category-bar .category-scroll span:first-child {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(30%) contrast(100%);
+}
+
 .category-bar .category-scroll .category-label {
     text-align: center;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
     white-space: nowrap;
-  }
+}
+
+.category-bar .category-scroll span:hover:not(:first-child) {
+    filter: invert(54%) sepia(0%) saturate(0%) hue-rotate(271deg) brightness(10%) contrast(104%);
+}
 
 .category-bar .filters-menu {
     height: 48px;
     width: 90px;
-  }
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 23px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}

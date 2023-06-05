@@ -3,8 +3,7 @@ import './Footer.css';
 
 export default function Footer() {
     return (
-        <footer className='section-padding sticky-bottom'>
-          <div className="footer-panels">
+        <div className="footer-panels">
             <div className="panel-1">
             © 2023 Airbnb, Inc. · Privacy · Terms · Sitemap · Destinations
             </div>
@@ -36,7 +35,6 @@ export default function Footer() {
                     </span>
                 </div>
             </div>
-          </div>
-        </footer>
+        </div>
     );
 }

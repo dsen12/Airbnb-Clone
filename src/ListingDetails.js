@@ -4,7 +4,7 @@ const ListingDetails = [
     location: "Marton, New Zealand",
     stars: "5.0",
     distance: "3,277",
-    dates: "13\-18 Aug",
+    dates: "13-18 Aug",
     price: "1,330",
 },
 {
@@ -12,7 +12,7 @@ const ListingDetails = [
     location: "Nelson, New Zealand",
     stars: "4.92",
     distance: "3,075",
-    dates: "6\-11 Jun",
+    dates: "6-11 Jun",
     price: "1,346",
 },
 {
@@ -20,7 +20,7 @@ const ListingDetails = [
     location: "Pelkosenniemi, Finland",
     stars: "4.81",
     distance: "14,463",
-    dates: "3\-8 Jan",
+    dates: "3-8 Jan",
     price: "1,451",
 },
 {
@@ -28,7 +28,7 @@ const ListingDetails = [
     location: "Abiansemal, Indonesia",
     stars: "4.85",
     distance: "3,776",
-    dates: "9\-14 Jan",
+    dates: "9-14 Jan",
     price: "3,936",
 },
 {
@@ -36,7 +36,7 @@ const ListingDetails = [
     location: "Hua Hin District, Thailand",
     stars: "4.92",
     distance: "6,657",
-    dates: "17\-22 Jun",
+    dates: "17-22 Jun",
     price: "888",
 },
 {
@@ -44,7 +44,7 @@ const ListingDetails = [
     location: "Selat, Indonesia",
     stars: "4.9",
     distance: "3,770",
-    dates: "27 Oct\-1 Nov",
+    dates: "27 Oct-1 Nov",
     price: "2,830",
 },
 {
@@ -52,7 +52,7 @@ const ListingDetails = [
     location: "Mueang Chiang Mai District, Thailand",
     stars: "4.87",
     distance: "7,296",
-    dates: "13\-18 Jun",
+    dates: "13-18 Jun",
     price: "217",
 },
 {
@@ -60,7 +60,7 @@ const ListingDetails = [
     location: "Lewisham, Australia",
     stars: "4.84",
     distance: "1,174",
-    dates: "25\-30 Jun",
+    dates: "25-30 Jun",
     price: "1,941",
 },
 {
@@ -68,7 +68,7 @@ const ListingDetails = [
     location: "Mudgee, Australia",
     stars: "5.0",
     distance: "1,053",
-    dates: "10\-15 Sept",
+    dates: "10-15 Sept",
     price: "2,889",
 },
 {
@@ -76,7 +76,7 @@ const ListingDetails = [
     location: "Thung Samo, Thailand",
     stars: " ",
     distance: "6,976",
-    dates: "1\-6 Jun",
+    dates: "1-6 Jun",
     price: "4,489",
 },
 {
@@ -84,7 +84,7 @@ const ListingDetails = [
     location: "Jackeys Marsh, Australia",
     stars: "4.9",
     distance: "1,027",
-    dates: "1\-6 Jun",
+    dates: "1-6 Jun",
     price: "1,346",
 },
 {
@@ -92,7 +92,7 @@ const ListingDetails = [
     location: "Balamban, Phillippines",
     stars: "4.91",
     distance: "5,289",
-    dates: "18\-23 Jun",
+    dates: "18-23 Jun",
     price: "1,795",
 },
 {
@@ -100,7 +100,7 @@ const ListingDetails = [
     location: "Tampaksiring, Indonesia",
     stars: "4.92",
     distance: "3,782",
-    dates: "21\-26 Sept",
+    dates: "21-26 Sept",
     price: "3,249",
 },
 {
@@ -108,7 +108,7 @@ const ListingDetails = [
     location: "El Nido, Phillippines",
     stars: "4.95",
     distance: "5,485",
-    dates: "17\-24 Jun",
+    dates: "17-24 Jun",
     price: "7,751",
 },
 
@@ -117,7 +117,7 @@ const ListingDetails = [
     location: "Baguio, Phillippines",
     stars: "4.89",
     distance: "6,014",
-    dates: "5\-10 Jun",
+    dates: "5-10 Jun",
     price: "987",
 },
 {
@@ -125,7 +125,7 @@ const ListingDetails = [
     location: "Ubud, Indonesia",
     stars: "4.95",
     distance: "3,774",
-    dates: "1\-6 Sept",
+    dates: "1-6 Sept",
     price: "7,088",
 },
 {
@@ -133,7 +133,7 @@ const ListingDetails = [
     location: "Kecamatan Kuta Selatan, Indonesia",
     stars: "4.95",
     distance: "3,761",
-    dates: "6\-11 Oct",
+    dates: "6-11 Oct",
     price: "1,806",
 },
 {
@@ -141,7 +141,7 @@ const ListingDetails = [
     location: "Kuta Utara, Indonesia",
     stars: "4.89",
     distance: "3,774",
-    dates: "6\-11 Oct",
+    dates: "6-11 Oct",
     price: "2,078",
 },
 {
@@ -149,7 +149,7 @@ const ListingDetails = [
     location: "Bingin Beach, Indonesia",
     stars: "4.94",
     distance: "3,760",
-    dates: "4\-9 Jun",
+    dates: "4-9 Jun",
     price: "3,182",
 },
 {
@@ -157,7 +157,7 @@ const ListingDetails = [
     location: "Bilpin, Australia",
     stars: "4.92",
     distance: "1,100",
-    dates: "12\-17 Nov",
+    dates: "12-17 Nov",
     price: "5,880",
 },
 {
@@ -165,7 +165,7 @@ const ListingDetails = [
     location: "Alexandria, Australia",
     stars: "4.9",
     distance: "1,160",
-    dates: "3\-8 Jun",
+    dates: "3-8 Jun",
     price: "2,646",
 },
 {
@@ -173,7 +173,7 @@ const ListingDetails = [
     location: "Kecamatan Ubud, Indonesia",
     stars: " ",
     distance: "3,777",
-    dates: "2\-9 Jun",
+    dates: "2-9 Jun",
     price: "2,109",
 },
 {
@@ -181,7 +181,7 @@ const ListingDetails = [
     location: "Licin, Indonesia",
     stars: "4.78",
     distance: "3,872",
-    dates: "21\-26 Jun",
+    dates: "21-26 Jun",
     price: "207",
 },
 {
@@ -189,7 +189,7 @@ const ListingDetails = [
     location: "Hurworth, New Zealand",
     stars: "5.0",
     distance: "3,162",
-    dates: "10\-15 Jun",
+    dates: "10-15 Jun",
     price: "912",
 },
 {
@@ -197,7 +197,7 @@ const ListingDetails = [
     location: "Seksyen 16, Malaysia",
     stars: "4.77",
     distance: "5,722",
-    dates: "11\-16 Jun",
+    dates: "11-16 Jun",
     price: "341",
 },
 ];

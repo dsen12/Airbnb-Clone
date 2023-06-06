@@ -13,17 +13,23 @@ align-items: center;
 justify-content: space-between;
 }
 
+.navbar .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .navbar .logo svg {
 fill: #ff395b;
 }
 
 .search-bar {
-width: 400px;
+padding: 0 24px;
 height: 48px;
 display: flex;
 align-items: center;
 justify-content: center;
-margin: 0 24px;
 }
 
 .search-buttons {

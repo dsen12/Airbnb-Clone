@@ -1,10 +1,6 @@
 import React from "react";
 import './Navbar.css';
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import user from "./images/user.png";
 
 export default function Navbar() {
     return (
@@ -18,7 +14,7 @@ export default function Navbar() {
                 <div className='any-week'>Any week</div>
                 <div className='add-guests'>Add Guests</div>
                 <div className='button'>
-                    <FontAwesomeIcon className='search-icon' icon={faMagnifyingGlass} />
+                    <svg className='search-icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style={{ display: 'block', fill: 'none', height: '12px', width: '12px', stroke: 'currentcolor', strokeWidth: '5.33333', overflow: 'visible' }}><path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path></svg>
                 </div>
                 </div>
             </div>
@@ -31,10 +27,10 @@ export default function Navbar() {
                 </div>
                 <div className='menu'>
                 <div>
-                    <FontAwesomeIcon className='menu-icon' icon={faBars} />
+                    <svg className='menu-icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style={{ display: 'block', fill: 'none', height: '16px', width: '16px', stroke: 'currentcolor', strokeWidth: '3', overflow: 'visible' }}><g fill="none"><path d="M2 16h28M2 24h28M2 8h28"></path></g></svg>
                 </div>
                 <div>
-                    <img className='user-icon' width="30" height="30" src={user} alt="user profile icon"></img>
+                    <svg className='user-icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style={{ display: 'block', height: '100%', width: '100%', fill: 'rgb(113,113,113)' }}><path d="M16 .7C7.56.7.7 7.56.7 16S7.56 31.3 16 31.3 31.3 24.44 31.3 16 24.44.7 16 .7zm0 28c-4.02 0-7.6-1.88-9.93-4.81a12.43 12.43 0 0 1 6.45-4.4A6.5 6.5 0 0 1 9.5 14a6.5 6.5 0 0 1 13 0 6.51 6.51 0 0 1-3.02 5.5 12.42 12.42 0 0 1 6.45 4.4A12.67 12.67 0 0 1 16 28.7z"></path></svg>
                 </div>
                 </div>
             </div>

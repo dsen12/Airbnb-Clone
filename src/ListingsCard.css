@@ -1,0 +1,63 @@
+
+.listing-card {
+    position: relative;
+    width: 307px;
+    height: 392px;
+    border-radius: 12px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.listing-card .listing-image {
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.listing-card .heart-button {
+    fill: rgba(0, 0, 0, 0.5);
+    height: 24px;
+    width: 24px;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2px;
+    position: absolute;
+    top: 11px;
+    left: 270px;
+    z-index: 1;
+}
+
+.listing-card .listing-info {
+    width: 100%;
+
+}
+.listing-card .listing-info > * {
+    margin-bottom: 2px;
+}
+
+.listing-card .listing-info .listing-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listing-card .listing-info .listing-title .listing-location {
+    font-weight: 600;
+}
+
+.listing-card .listing-info .listing-title .listing-stars {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.listing-card .listing-info .listing-distance, .listing-dates {
+    color:rgb(113, 113, 113)
+}
+
+.listing-card .listing-info .listing-price {
+    margin-top: 8px;
+    text-decoration: underline;
+}

@@ -1,4 +1,9 @@
-header .navbar {
+
+.navbar {
+    width: 100vw;
+}
+
+.navbar {
 border: 1px solid #dddddd;
 height: 80px;
 }

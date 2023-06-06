@@ -10,12 +10,13 @@ function App() {
     <div className="App">
       <div className="container">
         <Banner />
-        <header className='section-padding sticky-top'>
+        <header className='sticky-top'>
             <Navbar />
             <CategoryBar />
         </header>
         <main className='section-padding'>
           <Listings />
+          <br />
         </main>
         <footer className='section-padding sticky-bottom'>
           <Footer />

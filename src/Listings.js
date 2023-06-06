@@ -1,7 +1,11 @@
 import React from "react";
 import './Listings.css';
+import './ListingDetails.js';
 
-export default function Listings() {
+export default function Listings(props) {
+    let stars = props.stars;
+
+    console.log(props.stars);
     return (
         <div className='listing-card'>
             <img className="listing-image" width={307} height={292} src="https://a0.muscache.com/im/pictures/miso/Hosting-20605023/original/0be3f493-fd2d-434e-b557-ad2c189b1543.jpeg?im_w=720" alt="airbnb location listing in .."></img>
@@ -22,7 +26,7 @@ export default function Listings() {
                     </svg>
                   </span>
                   <span>
-                    5.0
+                    {stars}
                   </span>
                 </div>
               </div>

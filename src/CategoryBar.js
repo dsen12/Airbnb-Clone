@@ -22,74 +22,74 @@ export default function CategoryBar() {
     return (
         <div className='category-bar section-padding sticky-top'>
             <div className='category-scroll'>
-                 <span>
+                 <div className="category-card">
                     <img className='category-icon' src={omg} alt='icon for OMG! category'></img>
                     <div className='category-label'>OMG!</div>
-                </span>
-                 <span >
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={rooms} alt='icon for OMG! category'></img>
                     <div className='category-label'>Rooms</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={tinyhomes} alt='icon for OMG! category'></img>
                     <div className='category-label'>Tiny Homes</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={amazingviews} alt='icon for OMG! category'></img>
                     <div className='category-label'>Amazing Views</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={thearctic} alt='icon for OMG! category'></img>
                     <div className='category-label'>The Arctic</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={tropical} alt='icon for OMG! category'></img>
                     <div className='category-label'>Tropical</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={mansions} alt='icon for OMG! category'></img>
                     <div className='category-label'>Mansions</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={treehouses} alt='icon for OMG! category'></img>
                     <div className='category-label'>Treehouses</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={boats} alt='icon for OMG! category'></img>
                     <div className='category-label'>Boats</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={countryside} alt='icon for OMG! category'></img>
                     <div className='category-label'>Countryside</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={castles} alt='icon for OMG! category'></img>
                     <div className='category-label'>Castles</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={cabins} alt='icon for OMG! category'></img>
                     <div className='category-label'>Cabins</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={beaches} alt='icon for OMG! category'></img>
                     <div className='category-label'>Beaches</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={islands} alt='icon for OMG! category'></img>
                     <div className='category-label'>Islands</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={trending} alt='icon for OMG! category'></img>
                     <div className='category-label'>Trending</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={farms} alt='icon for OMG! category'></img>
                     <div className='category-label'>Farms</div>
-                </span>
-                 <span>
+                </div>
+                 <div className="category-card">
                     <img className='category-icon' src={offthegrid} alt='icon for OMG! category'></img>
                     <div className='category-label'>Off The Grid</div>
-                </span>
+                </div>
             </div>
             <div className='filters-menu'>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" style={{display: 'block', height: '14px', width: '14px', fill: 'currentColor'}} aria-hidden="true" role="presentation" focusable="false" className="">
